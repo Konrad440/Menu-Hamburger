@@ -1,0 +1,32 @@
+.burger {
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    font-size: 40px;
+    line-height: 50px;
+    transition: .8s linear;
+    cursor: pointer;
+}
+
+aside {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -300px;
+    width: 300px;
+    background-color: black;
+    transition: .3s linear; 
+}
+
+.fas {
+    display: none;
+    color: cadetblue;
+    font-size: 60px;
+}
+i.show {
+    display: block;
+}
+
+aside.show {
+    left: 0px;
+}
